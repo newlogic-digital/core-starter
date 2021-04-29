@@ -1,9 +1,10 @@
-import {Core} from  "newlogic-core";
+import {Core} from  "@newlogic-digital/core";
 
-new Core().init({
+export default new Core().init({
     styles: {
+        revision: false,
         purge: {
-            content: ['src/scripts/**/*.js', 'src/templates/**/*.twig', 'www/templates/**/*.tpl', 'temp/cdn/*.js']
+            content: ['src/scripts/**/*.js', 'public/*.html', 'app/Presenters/templates/**/*.latte', 'temp/cdn/*.js']
         }
     }
 })

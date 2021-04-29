@@ -4,6 +4,6 @@
     "stimulus": "^2.0.0"
   },
   "devDependencies": {
-    "newlogic-core": "git+ssh://git@git.newlogic.cz/newlogic-dev/newlogic-core.git"
+    "@newlogic-digital/core": "^0.2.4"
   }
 }
