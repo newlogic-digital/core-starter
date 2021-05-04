@@ -6,5 +6,8 @@ export default new Core().init({
         purge: {
             content: ['src/scripts/**/*.js', 'public/*.html', 'app/Presenters/templates/**/*.latte', 'temp/cdn/*.js']
         }
+    },
+    templates: {
+        layout: "layout/main.twig"
     }
 })

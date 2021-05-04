@@ -2,3 +2,4 @@
 temp
 node_modules
 public/assets/
+public/*.html
