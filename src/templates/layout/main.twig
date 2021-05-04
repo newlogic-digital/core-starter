@@ -6,7 +6,12 @@
     <link rel="stylesheet" href="{{"/src/styles/main.css"|asset}}" />
 </head>
 <body>
-{{ title }}
-<script src="{{"/src/scripts/main.js"|asset}}" type="module"></script>
+    <figure>
+        <picture data-ratio="1/1" style="width: 4rem">
+            <img src="{{"/src/assets/placeholder.webp"|asset }}" loading="lazy" alt="" width="512" height="512" />
+        </picture>
+        <figcaption>{{ title }}</figcaption>
+    </figure>
+    <script src="{{"/src/scripts/main.js"|asset}}" type="module"></script>
 </body>
 </html>

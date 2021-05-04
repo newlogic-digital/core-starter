@@ -1,3 +1,3 @@
 import { Application } from "stimulus";
 
-console.log(Application);
+console.log("/src/assets/placeholder.webp", Application);
