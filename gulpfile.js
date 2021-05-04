@@ -1,6 +1,6 @@
-import {Core} from  "@newlogic-digital/core";
+import {defineConfig} from  "@newlogic-digital/core";
 
-export default new Core().init({
+export default defineConfig({
     styles: {
         purge: {
             content: ['src/scripts/**/*.js', 'src/templates/**/*.twig', 'app/Presenters/templates/**/*.latte', 'temp/cdn/*.js']
