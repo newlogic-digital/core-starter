@@ -4,6 +4,6 @@
     "stimulus": "^2.0.0"
   },
   "devDependencies": {
-    "@newlogic-digital/core": "~0.5.23"
+    "@newlogic-digital/core": "~0.5.24"
   }
 }
